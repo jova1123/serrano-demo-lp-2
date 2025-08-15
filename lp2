@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Serrano Demolition · Demolition & Grading in Southern California</title>
+  <meta name="description" content="Fast, clean demolition, hauling, and grading across Los Angeles, Riverside, and San Bernardino. Licensed & insured. Same‑day quotes." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta property="og:title" content="Serrano Demolition · Demolition & Grading in Southern California" />
+  <meta property="og:description" content="Fast, clean demolition, hauling, and grading. Licensed & insured. Same‑day quotes." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://serranosdemo.com/" />
+  <meta name="theme-color" content="#0b0f13" />
+  <style>
+    :root{
+      --bg:#0b0f13; --panel:#121821; --muted:#9aa4b2; --brand:#3b82f6; --line:#1f2937; --text:#e5e7eb; --accent:#22c55e; --warn:#f59e0b;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .container{max-width:1100px;margin:0 auto;padding:0 20px}
+    .btn{display:inline-flex;align-items:center;gap:.6rem;background:var(--brand);color:#fff;padding:12px 18px;border-radius:12px;font-weight:700;border:0;cursor:pointer;box-shadow:0 12px 30px rgba(59,130,246,.28);transition:transform .15s ease, box-shadow .2s ease}
+    .btn:hover{transform:translateY(-1px);box-shadow:0 16px 36px rgba(59,130,246,.36)}
+    .btn.alt{background:transparent;border:1px solid #334155;color:#e2e8f0;box-shadow:none}
+    header{position:sticky;top:0;z-index:30;background:rgba(11,15,19,.8);backdrop-filter:blur(8px) saturate(140%);border-bottom:1px solid #111827}
+    .nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+    .logo{display:flex;align-items:center;gap:.6rem;font-weight:800}
+    .mark{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,var(--brand),var(--accent));display:grid;place-items:center;color:#fff;font-size:14px}
+    .hero{position:relative;isolation:isolate}
+    .hero:before{content:"";position:absolute;inset:0;background:
+      linear-gradient(180deg,rgba(11,15,19,.0),rgba(11,15,19,.65) 45%,rgba(11,15,19,.95)),
+      radial-gradient(1200px 600px at 15% -10%, rgba(59,130,246,.35), transparent 60%),
+      url('https://images.unsplash.com/photo-1591369822093-8f2c4aca7c5e?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;opacity:.6;filter:grayscale(20%)}
+    .hero-inner{position:relative;padding:90px 0 36px}
+    .h1{font-size:40px;line-height:1.1;margin:10px 0 12px}
+    .lead{color:#cbd5e1;max-width:780px}
+    .kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:24px 0 6px}
+    .kpi{background:rgba(17,24,39,.6);border:1px solid #1f2937;border-radius:16px;padding:14px}
+    .kpi h3{margin:0;font-size:22px}
+    .kpi p{margin:2px 0 0;color:var(--muted);font-size:13px}
+    .grid{display:grid;gap:18px}
+    .two{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .three{grid-template-columns:repeat(3,minmax(0,1fr))}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px}
+    .section{padding:56px 0}
+    .section-title{font-size:26px;margin:0 0 10px}
+    .muted{color:var(--muted)}
+    .list{display:grid;gap:10px}
+    .badge{display:inline-flex;align-items:center;gap:.5rem;padding:6px 10px;border:1px dashed #334155;border-radius:999px;color:#cbd5e1;background:rgba(30,41,59,.35)}
+    .gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    .img{border-radius:14px;overflow:hidden;border:1px solid #1f2937}
+    .cta-row{display:flex;gap:12px;flex-wrap:wrap}
+    footer{border-top:1px solid #111827;padding:28px 0;color:#9aa4b2}
+
+    /* Responsive */
+    @media (max-width:900px){.kpis{grid-template-columns:repeat(2,1fr)}.two{grid-template-columns:1fr}.three{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}.h1{font-size:34px}}
+    @media (max-width:520px){.kpis{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.h1{font-size:30px}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"Serrano Demolition",
+    "image":"https://serranosdemo.com/logo.png",
+    "url":"https://serranosdemo.com/",
+    "telephone":"+1-555-555-5555",
+    "address":{"@type":"PostalAddress","addressLocality":"Los Angeles","addressRegion":"CA","addressCountry":"US"},
+    "areaServed":["Los Angeles","Riverside","San Bernardino"],
+    "priceRange":"$$"
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo"><span class="mark">SD</span> Serrano Demolition</div>
+      <div class="cta-row">
+        <a class="btn alt" href="tel:+1-555-555-5555">Call: (555) 555‑5555</a>
+        <a class="btn" href="#quote">Get a Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner container">
+        <span class="badge">Licensed · Insured · Same‑Day Quotes</span>
+        <h1 class="h1">Demolition & Grading Experts in Southern California</h1>
+        <p class="lead">Interior and structural demolition, pool removal, debris hauling, rough grading and compaction. Clean sites, clear communication, on‑time delivery.</p>
+        <div class="cta-row" style="margin-top:14px">
+          <a class="btn" href="#quote">Request Estimate</a>
+          <a class="btn alt" href="#services">See Services</a>
+        </div>
+
+        <div class="kpis">
+          <div class="kpi"><h3>10+ yrs</h3><p>Serving SoCal</p></div>
+          <div class="kpi"><h3>500+</h3><p>Projects completed</p></div>
+          <div class="kpi"><h3>24‑48 hrs</h3><p>Typical start lead time</p></div>
+          <div class="kpi"><h3>4.9⭐</h3><p>Client satisfaction</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title">Core Services</h2>
+        <p class="muted">Straightforward pricing and clean execution. We coordinate permits, haul‑off, and recycling whenever possible.</p>
+        <div class="grid three" style="margin-top:14px">
+          <div class="card"><h3>Interior / Selective Demo</h3><p>Kitchen & bath strip‑outs, tenant improvements, commercial interiors. Careful protection and dust control.</p></div>
+          <div class="card"><h3>Structural Demolition</h3><p>Garage, ADU, sheds, small commercial structures. Safe takedown and concrete/asphalt removal.</p></div>
+          <div class="card"><h3>Grading & Excavation</h3><p>Rough grading, pad prep, pool backfill, compaction to 90%+. We self‑perform excavation where feasible.</p></div>
+          <div class="card"><h3>Pool Demolition / Removal</h3><p>Partial or full removal, backfill and compaction, export/import excluded unless requested.</p></div>
+          <div class="card"><h3>Debris Hauling</h3><p>Concrete, green waste, construction debris. Transparent tonnage and disposal receipts upon request.</p></div>
+          <div class="card"><h3>Saw‑cut & Break</h3><p>Trenches, driveways, hardscape. Clean cuts, quick haul‑off.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE AREAS / INTERNAL LINKS EXAMPLE -->
+    <section class="section" id="areas">
+      <div class="container">
+        <h2 class="section-title">Service Areas</h2>
+        <p class="muted">We cover most of Greater Los Angeles, Riverside, and San Bernardino counties. Popular pages:</p>
+        <div class="grid two" style="margin-top:10px">
+          <div class="card">
+            <h3>By Service + City</h3>
+            <ul class="list">
+              <li><a href="/pool-demolition-los-angeles">Pool Demolition – Los Angeles</a></li>
+              <li><a href="/pool-demolition-riverside">Pool Demolition – Riverside</a></li>
+              <li><a href="/garage-demolition-los-angeles">Garage Demolition – Los Angeles</a></li>
+              <li><a href="/grading-riverside">Grading – Riverside</a></li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Cities We Serve</h3>
+            <p class="muted">Los Angeles, Pasadena, Glendale, Burbank, Santa Monica, Long Beach, Downey, Whittier, Riverside, Moreno Valley, Corona, Ontario, Rancho Cucamonga, San Bernardino.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY (replace with your photos) -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Recent Work</h2>
+        <div class="gallery" style="margin-top:12px">
+          <div class="img"><img alt="Driveway demo" src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?q=80&w=1200&auto=format&fit=crop"></div>
+          <div class="img"><img alt="Excavation" src="https://images.unsplash.com/photo-1576253084028-0f2c8d5fdb2d?q=80&w=1200&auto=format&fit=crop"></div>
+          <div class="img"><img alt="Hauling" src="https://images.unsplash.com/photo-1602810318383-9e3264a6d872?q=80&w=1200&auto=format&fit=crop"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY US -->
+    <section class="section">
+      <div class="container grid three">
+        <div class="card"><h3>Licensed & Insured</h3><p>Coverage and compliance for residential and commercial projects.</p></div>
+        <div class="card"><h3>Clean & On‑Time</h3><p>Protective coverings, broom‑clean finish, clear timelines.</p></div>
+        <div class="card"><h3>Fast Estimates</h3><p>Most quotes within 24 hours. Ask about multi‑unit discounts.</p></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq">
+      <div class="container">
+        <h2 class="section-title">FAQ</h2>
+        <div class="grid two" style="margin-top:10px">
+          <div class="card"><h3>How soon can you start?</h3><p>Typically within 1–2 weeks. Rush options available depending on scope and permits.</p></div>
+          <div class="card"><h3>What’s included?</h3><p>Demo, load, haul‑off, and disposal. Import/export and permits priced separately unless noted.</p></div>
+          <div class="card"><h3>Do you handle compaction?</h3><p>Yes. We target 90%+ relative compaction per your plans and testing requirements.</p></div>
+          <div class="card"><h3>Are you licensed?</h3><p>Yes. Add your license number here: <strong>CA CSLB #XXXXXX</strong>.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / QUOTE -->
+    <section id="quote" class="section contact">
+      <div class="container">
+        <div class="grid two">
+          <div class="card">
+            <h2 class="section-title">Request a Free Quote</h2>
+            <p class="muted">Tell us about your project. We’ll get back within 24 hours.</p>
+            <form name="quote" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="quote" />
+              <p style="display:none"><label>Don’t fill this out: <input name="bot-field" /></label></p>
+              <div class="grid two">
+                <div class="card" style="padding:12px"><label>Name<br><input name="name" required style="width:100%;padding:10px;border-radius:10px;border:1px solid #334155;background:#0f1520;color:#e5e7eb"></label></div>
+                <div class="card" style="padding:12px"><label>Phone<br><input name="phone" required style="width:100%;padding:10px;border-radius:10px;border:1px solid #334155;background:#0f1520;color:#e5e7eb"></label></div>
+              </div>
+              <div class="card" style="padding:12px;margin-top:10px"><label>City<br><input name="city" style="width:100%;padding:10px;border-radius:10px;border:1px solid #334155;background:#0f1520;color:#e5e7eb"></label></div>
+              <div class="card" style="padding:12px;margin-top:10px"><label>Project Details<br><textarea name="details" rows="5" style="width:100%;padding:10px;border-radius:10px;border:1px solid #334155;background:#0f1520;color:#e5e7eb"></textarea></label></div>
+              <div style="margin-top:10px" class="cta-row">
+                <button class="btn" type="submit">Send Request</button>
+                <a class="btn alt" href="tel:+1-555-555-5555">Or call (555) 555‑5555</a>
+              </div>
+            </form>
+          </div>
+          <div class="card">
+            <h2 class="section-title">Contact</h2>
+            <p><strong>Phone:</strong> <a href="tel:+15555555555">(555) 555‑5555</a><br>
+               <strong>Email:</strong> <a href="mailto:estimates@serranosdemo.com">estimates@serranosdemo.com</a><br>
+               <strong>Hours:</strong> Mon–Sat 7am–6pm</p>
+            <p class="muted">Serving Los Angeles, Riverside, San Bernardino, and nearby cities. Ask about same‑week starts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
+        <div>© <span id="y"></span> Serrano Demolition · All rights reserved.</div>
+        <div>CSLB #XXXXXX · <a href="#">Privacy</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
